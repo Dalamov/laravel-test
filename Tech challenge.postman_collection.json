@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "926a443a-0573-458b-8abd-14ab3845f140",
+		"name": "Tech challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api Register",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImMxMGM5MGJhNGMzNjYzNTE2ZTA3MDdkMGU5YTg5NDgxMDYyODUxNTgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYnJhZ2lmeS03Y2VjYyIsImF1ZCI6ImJyYWdpZnktN2NlY2MiLCJhdXRoX3RpbWUiOjE2NDM2Njc5MzAsInVzZXJfaWQiOiJxbjlsdFZYVnFoZU1MVGJPSExsNjlWUFpIMmsyIiwic3ViIjoicW45bHRWWFZxaGVNTFRiT0hMbDY5VlBaSDJrMiIsImlhdCI6MTY0MzY2NzkzMCwiZXhwIjoxNjQzNjcxNTMwLCJlbWFpbCI6InZhbW9zeWFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInZhbW9zeWFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.FIEwvbE08te0lZo80091watqy6ZnhBqfJiffdKigAGkcdtpsA9gj4-kXGT0w6Xq4f1B4TJ17GliroF3rKjiyhaqkuuEOxO-nS8WHENvzDhl-iUEWQo8OBME8XX4g2sT1nuDaxtoKuim86qj5g5gfY4uXquHwzRVb_Q4QO7rVugDOHsm6lmP01kY13vcv-OUzXIgigGmkcbS3dgOklYRpYy-1BzRnCk3tujcWay5zwbPgFpd28kHvpb7hi20An1-ruOMiDDP-tF-Xnp7-8GNYek4RTYJFGuPk7xAQyjuiRQRnA4h_lBLDiD6w6SsOGb9YBUwf5etVbNM9ECoI5b4TBA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8100/api/register?email=daniellaalamo07@gmail.com&name=danpip&password=123456&confirm_password=123456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"register"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "daniellaalamo07@gmail.com"
+						},
+						{
+							"key": "name",
+							"value": "danpip"
+						},
+						{
+							"key": "password",
+							"value": "123456"
+						},
+						{
+							"key": "confirm_password",
+							"value": "123456"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch all",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "14|NrtGA6Ho4PiePGfNVwuWW5Nl8DMLgC6bLd2dc6Qu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8100/api/media",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"media"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch single",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8100/api/media/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"media",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "14|NrtGA6Ho4PiePGfNVwuWW5Nl8DMLgC6bLd2dc6Qu",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
