@@ -39,7 +39,7 @@ Some of the **Main functionalities** that can be found in this project are
 ## 🔧 Technologies
 - Some of the used **technologies** in this project are:
 
-- **HTML-CSS-javascript
+- **HTML-CSS-javascript**
 - **laravel: framework-sanctum-socialite-predis**
 - **redis**
 - **MySQL**
