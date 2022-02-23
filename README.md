@@ -25,7 +25,7 @@ Some of the **Main functionalities** that can be found in this project are
 
 ##  Features to implement 
 
-  - **Content search bar**:
+  - **Content search bar**
   - **options** to filter the **main content**
   - **Links** to the **main categories**
   - **Information** of the **logged in user**
@@ -37,7 +37,7 @@ Some of the **Main functionalities** that can be found in this project are
 
 
 ## 🔧 Technologies
-- Some of the used **technologies** in this project are:
+ Some of the used **technologies** in this project are:
 
 - **HTML-CSS-javascript**
 - **laravel: framework-sanctum-socialite-predis**
