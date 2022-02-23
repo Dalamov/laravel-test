@@ -23,7 +23,7 @@ Some of the **Main functionalities** that can be found in this project are
 - **multimedia resource** can be **uploaded** from and external link
 - The **user can obtain the link** of the **multimedia resource** to include it on any **website** and share
 
-##  Features to implement 
+## 🧩 Features to implement 
 
   - **Content search bar**
   - **options** to filter the **main content**
