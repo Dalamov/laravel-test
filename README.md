@@ -5,7 +5,7 @@
 >The **project** to be **developed** for this **challenge** will be a **Memes and Gifs** web page in which **users** can **upload their files** and **share** it with **everyone**.🖼
 > 
 >When organizing this project, I took into account the main requirements of the challenge, and the fact that it had to be finished in 48 hours.
-I decided to start and do it with what was most valued to put into practice, like **php** and **Laravel** and **MySQL.
+I decided to start and do it with what was most valued to put into practice, like **php** and **Laravel** and **MySQL**.
 >
 >Despite being what we have practiced the least, also prioritizing what seemed to me could be the most relevant.
 >
